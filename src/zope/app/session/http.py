@@ -20,6 +20,6 @@ $Id$
 from zope.session.http import (ICookieClientIdManager,
                                MissingClientIdException,
                                notifyVirtualHostChanged,
-                               CookieClientIdManager,
-                               digestEncode,
-                               cookieSafeTrans)
+                               CookieClientIdManager,)
+                               #digestEncode,
+                               #cookieSafeTrans)

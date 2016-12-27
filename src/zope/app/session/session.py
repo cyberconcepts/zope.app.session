@@ -22,6 +22,6 @@ from zope.session.session import (SessionData,
                                   Session,
                                   RAMSessionDataContainer,
                                   PersistentSessionDataContainer,
-                                  ClientId,
-                                  digestEncode,
-                                  cookieSafeTrans)
+                                  ClientId,)
+                                  #digestEncode,
+                                  #cookieSafeTrans)
